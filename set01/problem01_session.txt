@@ -32,3 +32,12 @@ h29> c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-yea
 ith29\set01\problem01.exe
 my name is sukhith
 ]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>git add .
+
+]633;E;git add .;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>git commit -m "committed 10/17/2023, 3:27:58 PM"
+
+]633;E;git commit -m "committed 10/17/2023, 3:27:58 PM";bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>git push
+
+]633;E;git push;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
