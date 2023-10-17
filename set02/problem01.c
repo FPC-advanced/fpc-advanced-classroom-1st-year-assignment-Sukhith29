@@ -2,6 +2,7 @@ void input(float *base, float *height);
 void find_area(float base , float height, float *area);
 void output(float base, float height, float area);
 
+#include <stdio.h>
 void input(float *base,float *height)
 {
     printf("enter the height of the triangle: ");
@@ -19,7 +20,7 @@ void find_area(float base , float height, float *area)
 
 void output(float base, float height, float area)
 {
-    printf("the are of triangle is :",area);
+    printf("the are of triangle which has %f and %fis %f :",base,height,area);
 }
 
 int main()

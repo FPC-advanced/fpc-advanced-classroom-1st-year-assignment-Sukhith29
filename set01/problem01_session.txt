@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231017121325
+Username: LAPTOP-HF3J6R39\sukhi
+RunAs User: LAPTOP-HF3J6R39\sukhi
+Configuration Name: 
+Machine: LAPTOP-HF3J6R39 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\sukhi\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 19368
+PSVersion: 5.1.22621.2428
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
+BuildVersion: 10.0.22621.2428
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01_session.txt
+]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01_session.txt";b6035feb-4183-4a7d-ab74-a3aaca80bcab]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
