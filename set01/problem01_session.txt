@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231017152732
+Start time: 20231017155114
 Username: LAPTOP-HF3J6R39\sukhi
 RunAs User: LAPTOP-HF3J6R39\sukhi
 Configuration Name: 
 Machine: LAPTOP-HF3J6R39 (Microsoft Windows NT 10.0.22621.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\sukhi\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 16984
+Process ID: 1880
 PSVersion: 5.1.22621.2428
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
@@ -15,46 +15,4 @@ CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
-**********************
-Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01_session.txt
-]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01_session.txt";bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe" 2>&1
-
-]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe" 2>&1;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe
-sroom-1st-year-assignment-Sukhith29\set01\problem01_session.txtPS C:\Users\sukhi\github-classroom
-\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> gcc -g "c:\Users\sukhi\github
--classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.c" -
-o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhit
-h29\set01\problem01.exe" 2>&1
-PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhit
-h29> c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukh
-ith29\set01\problem01.exe
-my name is sukhith
-]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git add .
-
-]633;E;git add .;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git commit -m "committed 10/17/2023, 3:27:58 PM"
-
-]633;E;git commit -m "committed 10/17/2023, 3:27:58 PM";bde06fa4-8349-4509-8fbf-e8025d298622]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git push
-
-]633;E;git push;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git checkout first_features 
-
-]633;E;git checkout first_features ;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git checkout github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29
-
-]633;E;git checkout github-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29
-
-]633;E;git github-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git main
-
-]633;E;git main;bde06fa4-8349-4509-8fbf-e8025d298622]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231017153731
 **********************
