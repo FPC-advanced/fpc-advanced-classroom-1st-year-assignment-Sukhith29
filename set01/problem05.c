@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 int input()
 {
@@ -23,3 +24,6 @@ int main(void)
     d=compare(a,b,c);
     return d;
 }
+=======
+
+>>>>>>> cae1c3b01a4b1a4b9c35570ca243ae75415f88a3
