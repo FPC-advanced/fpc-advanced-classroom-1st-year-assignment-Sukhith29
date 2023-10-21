@@ -1,4 +1,4 @@
-Write a program to find the area of a triangle.
+/*Write a program to find the area of a triangle.
 
 ***Function Declarations***
 ```c
@@ -8,7 +8,7 @@ typedef struct _triangle {
 
 Triangle input_triangle();
 void find_area(Triangle *t);
-void output(Triangle t);
+void output(Triangle t); */
 
 #include <stdio.h>
 
@@ -40,8 +40,10 @@ void output (Triangle t)
 
 int main()
 {
-    Triangle t=input_triangle();
+    Triangle t;
+    Triangle input_triangle();
     find_area(&t);
-    output(t)
+    output(t);
+    return 0;
 
 }

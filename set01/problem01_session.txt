@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231017155114
+Start time: 20231021203301
 Username: LAPTOP-HF3J6R39\sukhi
 RunAs User: LAPTOP-HF3J6R39\sukhi
 Configuration Name: 
 Machine: LAPTOP-HF3J6R39 (Microsoft Windows NT 10.0.22621.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\sukhi\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 1880
+Process ID: 15756
 PSVersion: 5.1.22621.2428
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
@@ -17,105 +17,15 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01_session.txt
-]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01_session.txt";6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe" 2>&1
-gcc : c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Su
-khith29\set01\problem01.c:2:1: error: version control conflict marker in file
-At line:1 char:1
-+ gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-cla ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (c:\Users\sukhi\... marker in file:String) [], Remo
-   teException
-    + FullyQualifiedErrorId : NativeCommandError
-
- <<<<<<< HEAD
- ^~~~~~~
-In file included from c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-ye
-ar-assignment-Sukhith29\set01\problem01.c:3:0:
-c:\mingw\include\stdio.h:295:71: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  int    setvbuf (FILE *, char *, int, size_t);
-                                                                       ^~~~~~
-c:\mingw\include\stdio.h:345:54: error: unknown type name 'size_t'
- extern int __mingw_stdio_redirect__(snprintf)(char*, size_t, const char*, ...);
-                                                      ^~~~~~
-c:\mingw\include\stdio.h:349:55: error: unknown type name 'size_t'
- extern int __mingw_stdio_redirect__(vsnprintf)(char*, size_t, const char*, __VALIST);
-                                                       ^~~~~~
-c:\mingw\include\stdio.h:490:57: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  int _snprintf (char *, size_t, const char *, ...);
-                                                         ^~~~~~
-c:\mingw\include\stdio.h:491:58: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  int _vsnprintf (char *, size_t, const char *, __VALIST);
-                                                          ^~~~~~
-c:\mingw\include\stdio.h:502:23: error: unknown type name 'size_t'
- int snprintf (char *, size_t, const char *, ...);
-                       ^~~~~~
-c:\mingw\include\stdio.h:505:24: error: unknown type name 'size_t'
- int vsnprintf (char *, size_t, const char *, __VALIST);
-                        ^~~~~~
-c:\mingw\include\stdio.h:647:33: error: unknown type name 'size_t'
- getdelim (char ** __restrict__, size_t * __restrict__, int, FILE * __restrict__);
-                                 ^~~~~~
-c:\mingw\include\stdio.h:650:32: error: unknown type name 'size_t'
- getline (char ** __restrict__, size_t * __restrict__, FILE * __restrict__);
-                                ^~~~~~
-c:\mingw\include\stdio.h:734:34: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
-                                  ^~~~~~
-c:\mingw\include\stdio.h:734:56: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
-                                                        ^~~~~~
-c:\mingw\include\stdio.h:734:64: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
-                                                                ^~~~~~
-c:\mingw\include\stdio.h:735:34: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
-                                  ^~~~~~
-c:\mingw\include\stdio.h:735:63: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
-                                                               ^~~~~~
-c:\mingw\include\stdio.h:735:71: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
-                                                                       ^~~~~~
-c:\mingw\include\stdio.h:962:64: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  int    _snwprintf (wchar_t *, size_t, const wchar_t *, ...);
-                                                                ^~~~~~
-c:\mingw\include\stdio.h:964:65: error: unknown type name 'size_t'
- _CRTIMP __cdecl __MINGW_NOTHROW  int    _vsnwprintf (wchar_t *, size_t, const wchar_t *,
-__VALIST);
-                                                                 ^~~~~~
-c:\mingw\include\stdio.h:1006:52: error: unknown type name 'size_t'
- __cdecl __MINGW_NOTHROW  int snwprintf (wchar_t *, size_t, const wchar_t *, ...);
-                                                    ^~~~~~
-c:\mingw\include\stdio.h:1007:53: error: unknown type name 'size_t'
- __cdecl __MINGW_NOTHROW  int vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
-                                                     ^~~~~~
-c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
-9\set01\problem01.c:11:1: error: version control conflict marker in file
- =======
- ^~~~~~~
-
-]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe" 2>&1;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01_session.txt";ec2e2122-83f4-4988-98d8-ea87ad89ffee]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
 PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe" 2>&1
 
-]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe" 2>&1;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe" 2>&1
-
-]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe" 2>&1;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe" 2>&1;ec2e2122-83f4-4988-98d8-ea87ad89ffee]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
 PS>c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem01.exe
 my name is sukhith
-]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git add .
-
-]633;E;git add .;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git commit -m "committed 10/17/2023, 3:53:27 PM"
-
-]633;E;git commit -m "committed 10/17/2023, 3:53:27 PM";6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
-PS>git push
-
-]633;E;git push;6fa15ea8-1681-4114-b6cd-25355def6ccc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset01\x5cproblem01.exe;ec2e2122-83f4-4988-98d8-ea87ad89ffee]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
 PS>Stop-Transcript
 **********************
 Windows PowerShell transcript end
-End time: 20231017155350
+End time: 20231021203326
 **********************
