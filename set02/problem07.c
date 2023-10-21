@@ -30,9 +30,9 @@ void output (Triangle t)
 int main()
 {
     Triangle t , x;
-    x=input_triangle();
-    find_area(&t);
-    output(t);
+    t=input_triangle();
+    find_area(&x);
+    output(x);
     return 0;
 
 }
