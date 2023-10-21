@@ -25,15 +25,15 @@ void find_area(Triangle *t)
 
 void output (Triangle t)
 {
-    printf("the area of the triangle is %f", t.base);
+    printf("the area of the triangle is %f", t.area);
 }
 
 int main()
 {
-    Triangle t , x;
+    Triangle t ;
     t=input_triangle();
-    find_area(&x);
-    output(x);
+    find_area(&t);
+    output(t);
     return 0;
 
 }
