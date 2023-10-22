@@ -41,11 +41,11 @@ void input_array(int n, int a[n])
 int sum_composite_numbers(int n, int a[n])
 {
     int i;
-    a[n];
+    
     int sum = 0;
     for(i=2;i<n;i++)
     {
-        if(a[i] % 2 == 0)
+        if(a[i] % i == 0)
         {
             sum = sum + a[i];
         
