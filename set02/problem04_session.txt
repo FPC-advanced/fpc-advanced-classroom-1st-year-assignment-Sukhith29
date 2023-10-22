@@ -18,3 +18,23 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem04_session.txt
 ]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem04_session.txt";8158f457-5eab-47da-b12e-ddabdef57758]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem04.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem04.exe" 2>&1
+gcc : c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Su
+khith29\set02\problem04.c: In function 'sum_composite_numbers':
+At line:1 char:1
++ gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\sukhi\...osite_numbers'::String) [], Remo
+   teException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem04.c:44:9: error: 'a' redeclared as different kind of symbol
+     int a[n];
+         ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem04.c:41:38: note: previous definition of 'a' was here
+ int sum_composite_numbers(int n, int a[n])
+                                      ^
+
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem04.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem04.exe" 2>&1;8158f457-5eab-47da-b12e-ddabdef57758]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
