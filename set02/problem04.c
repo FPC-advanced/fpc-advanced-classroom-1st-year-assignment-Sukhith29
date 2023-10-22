@@ -41,7 +41,7 @@ void input_array(int n, int a[n])
 int sum_composite_numbers(int n, int a[n])
 {
     int i;
-    int a[n];
+    a[n];
     int sum = 0;
     for(i=2;i<n;i++)
     {
