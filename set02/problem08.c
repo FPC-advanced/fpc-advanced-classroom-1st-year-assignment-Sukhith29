@@ -69,11 +69,15 @@ void find_area(Triangle *t)
 void find_n_areas(int n, Triangle t[n])
 {
     int i;
-    int sum=0.0;
+    /*int sum=0.0;
     for(i=0;i<n;i++)
     {
         sum = sum + find_area(t[i]);
 
+    }*/
+    for (i=0;i<n;i++)
+    {
+        find_area(&t[i]);
     }
 }
 
@@ -101,10 +105,10 @@ int main()
     int n ;
     n=input_n();
     Triangle triangles[n];
-    input_n_triangle(n.triangles);
+    input_n_triangle(n,triangles);
     find_n_areas(n,triangles);
-    Triangle s,allest =find_smallest_triangle(n,triangles);
-    output(n,triangles , smallest );
+    Triangle smallest =find_smallest_triangle(n,triangles);
+    output(n,triangles,smallest);
     return 0;
 
 }
