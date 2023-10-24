@@ -18,3 +18,50 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem08_session.txt
 ]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08_session.txt";1bc1b34e-af91-4bea-8b30-8802be3b2745]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem08.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem08.exe" 2>&1
+gcc : c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Su
+khith29\set02\problem08.c: In function 'find_n_areas':
+At line:1 char:1
++ gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\sukhi\...'find_n_areas'::String) [], Remo
+   teException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:75:31: error: incompatible type for argument 1 of 'find_area'
+         sum = sum + find_area(t[i]);
+                               ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:64:6: note: expected 'Triangle * {aka struct _triangle *}' but argument is
+of type 'Triangle {aka struct _triangle}'
+ void find_area(Triangle *t)
+      ^~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c: In function 'output':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:96:87: error: expected ')' before 'smallest'
+     printf("triangle with the smallest area with base %f, altitude %f and area is %f
+"smallest.base ,smallest.altitude , smallest.area);
+                                                                                       ^~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:104:5: warning: implicit declaration of function 'input_n_triangle'
+[-Wimplicit-function-declaration]
+     input_n_triangle(n.triangles);
+     ^~~~~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:104:23: error: request for member 'triangles' in something not a structure
+or union
+     input_n_triangle(n.triangles);
+                       ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:107:26: error: 'smallest' undeclared (first use in this function)
+     output(n,triangles , smallest );
+                          ^~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith2
+9\set02\problem08.c:107:26: note: each undeclared identifier is reported only once for each
+function it appears in
+
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.exe" 2>&1;1bc1b34e-af91-4bea-8b30-8802be3b2745]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
