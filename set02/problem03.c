@@ -1,4 +1,4 @@
-03.  Write a program find whether a number is a composite number
+/*03.  Write a program find whether a number is a composite number
 
 > A Composite number has more than 2 factors.
 
@@ -19,7 +19,7 @@ void output(int n, int result);
 8 is a composite number.
 ```
 
----
+---*/
 
 #include <stdio.h>
 
