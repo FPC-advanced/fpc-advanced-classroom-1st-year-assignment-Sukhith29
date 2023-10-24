@@ -97,3 +97,44 @@ undeclared identifier is reported only once
 for each function it appears in
 
 ]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.exe" 2>&1;1bc1b34e-af91-4bea-8b30-8802be3b2745]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem08.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem08.exe" 2>&1
+gcc : c:\Users\sukhi\github-classroom\FPC-adv
+anced\fpc-advanced-classroom-1st-year-assignm
+ent-Sukhith29\set02\problem08.c: In function
+'output':
+At line:1 char:1
++ gcc -g "c:\Users\sukhi\github-classroom\FPC
+-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:
+   (c:\Users\sukhi\...ction 'output'::Strin
+  g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE
+   rror
+
+c:\Users\sukhi\github-classroom\FPC-advanced\
+fpc-advanced-classroom-1st-year-assignment-Su
+khith29\set02\problem08.c:100:87: error:
+expected ')' before 'smallest'
+     printf("triangle with the smallest area
+with base %f, altitude %f and area is %f
+"smallest.base ,smallest.altitude ,
+smallest.area);
+
+
+^~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\
+fpc-advanced-classroom-1st-year-assignment-Su
+khith29\set02\problem08.c: In function
+'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\
+fpc-advanced-classroom-1st-year-assignment-Su
+khith29\set02\problem08.c:108:5: warning:
+implicit declaration of function
+'input_n_triangle'
+[-Wimplicit-function-declaration]
+     input_n_triangle(n,triangles);
+     ^~~~~~~~~~~~~~~~
+
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem08.exe" 2>&1;1bc1b34e-af91-4bea-8b30-8802be3b2745]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
