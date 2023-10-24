@@ -31,7 +31,7 @@ int find_gcd(int a, int b)
 {
     int gcd =1;
     int i;
-    for(i =0;i<=a || i<=b; i++)
+    for(i =1;i<=a && i<=b; i++)
     {
         if( a%i == 0 && b%i == 0 )
        {
