@@ -18,3 +18,22 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03_session.txt
 ]633;E;Start-Transcript -Path "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03_session.txt";359b8a2b-f72c-4dd6-875f-39325b1927cc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.exe" 2>&1
+
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.exe" 2>&1;359b8a2b-f72c-4dd6-875f-39325b1927cc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.exe
+-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.c" -
+o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhit
+h29\set02\problem03.exe" 2>&1
+PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhit
+h29> c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukh
+ith29\set02\problem03.exe
+Enter a number: 8
+8 is a composite number.
+]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.exe;359b8a2b-f72c-4dd6-875f-39325b1927cc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>gcc -g "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.c" -o "c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.exe" 2>&1
+
+]633;E;gcc -g "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.c" -o "c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.exe" 2>&1;359b8a2b-f72c-4dd6-875f-39325b1927cc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
+PS>c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set02\problem03.exe
+
+]633;E;c:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29\x5cset02\x5cproblem03.exe;359b8a2b-f72c-4dd6-875f-39325b1927cc]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csukhi\x5cgithub-classroom\x5cFPC-advanced\x5cfpc-advanced-classroom-1st-year-assignment-Sukhith29PS C:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29> ]633;B
