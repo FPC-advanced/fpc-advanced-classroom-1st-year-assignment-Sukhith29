@@ -31,7 +31,8 @@ void str_reverse(char *str, char *rev_str)
 }*/
 
 #include<stdio.h>
-void input_string(char *a){
+void input_string(char *a)
+{
 printf("%s",a);
 scanf("%s",a);
 }
@@ -49,8 +50,8 @@ printf("%s",str);
 }
 
 int main(){
-      char str[100],rev[100];
-  input_String(str);
+  char str[100],rev[100];
+  input_string(str);
   str_reverse(str,rev);
   output(rev);
   return 0;
