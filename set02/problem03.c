@@ -47,6 +47,7 @@ int is_composite(int n) {
     }
     
     return 0; 
+    
 }
 
 void output(int n, int result) {
