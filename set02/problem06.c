@@ -33,7 +33,7 @@ void str_reverse(char *str, char *rev_str)
 #include<stdio.h>
 void input_string(char *a)
 {
-printf("%s",a);
+printf("enter the string ");
 scanf("%s",a);
 }
 void str_reverse(char *str, char *rev_str)
