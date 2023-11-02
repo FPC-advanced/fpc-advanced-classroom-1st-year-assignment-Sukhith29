@@ -7,3 +7,12 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  float find_distance(float x1, float y1, float x2, float y2)
        ^~~~~~~~~~~~~
 Compilation finished at 11/2/2023, 4:19:43 PM
+Compilation started at 11/2/2023, 4:20:46 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem01.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem01.c:54:14: error: too few arguments to function 'find_distance'
+     distance=find_distance();
+              ^~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem01.c:36:7: note: declared here
+ float find_distance(float x1, float y1, float x2, float y2)
+       ^~~~~~~~~~~~~
+Compilation finished at 11/2/2023, 4:20:46 PM
