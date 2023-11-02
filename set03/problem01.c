@@ -36,9 +36,9 @@ void input(float *x1, float *y1, float *x2, float *y2)
 float find_distance(float x1, float y1, float x2, float y2)
 {
     float x,y,distance;
-    x=pow((x2-x1),2);
-    y=pow((y2-y1),2);
-    distance=sqrt(x+y);
+    x=powf((x2-x1),2);
+    y=powf((y2-y1),2);
+    distance=sqrtf(x+y);
     return distance;
 }
 
