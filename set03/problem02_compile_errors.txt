@@ -129,3 +129,16 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      result 0;
             ^
 Compilation finished at 11/5/2023, 8:54:52 PM
+Compilation started at 11/5/2023, 8:55:29 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c: In function 'is_triangle':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:42:49: error: expected ')' before ';' token
+      d3 = sqrt(pow(x3 - x2, 2) + pow(y3 - y2, 2);
+                                                 ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:53:1: error: expected ';' before '}' token
+ }
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:75:12: error: expected ';' before numeric constant
+     result 0;
+            ^
+Compilation finished at 11/5/2023, 8:55:29 PM

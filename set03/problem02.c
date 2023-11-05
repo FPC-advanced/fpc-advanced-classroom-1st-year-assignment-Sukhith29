@@ -1,4 +1,4 @@
-2. Write a program to find whether the given 3 points form a triangle
+/*2. Write a program to find whether the given 3 points form a triangle
 
 ***Function Declarations***
 ```c
@@ -19,7 +19,7 @@ void output(float x1, float y1, float x2, float y2,float x3, float y3, int resul
 The points (1.0, 1.0), (0.0, 0.0) and (1.0, 1.0) do not form a triangle
 ```
 
----
+---*/
 
 #include <stdio.h>
 #include <math.h>
