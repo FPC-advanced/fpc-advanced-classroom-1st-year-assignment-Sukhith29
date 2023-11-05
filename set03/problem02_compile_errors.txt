@@ -1,0 +1,131 @@
+Compilation started at 11/5/2023, 8:54:51 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:1:1: error: expected identifier or '(' before numeric constant
+ 2. Write a program to find whether the given 3 points form a triangle
+ ^~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:4:1: error: stray '`' in program
+ ```c
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:4:2: error: stray '`' in program
+ ```c
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:4:3: error: stray '`' in program
+ ```c
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:8:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:8:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:8:3: error: stray '`' in program
+ ```
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:10:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+ ***Input***
+         ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:11:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:11:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:11:3: error: stray '`' in program
+ ```
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:15:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:15:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:15:3: error: stray '`' in program
+ ```
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:18:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:18:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:18:3: error: stray '`' in program
+ ```
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:20:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:20:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:20:3: error: stray '`' in program
+ ```
+   ^
+In file included from c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:24:0:
+c:\mingw\include\stdio.h:295:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    setvbuf (FILE *, char *, int, size_t);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:345:54: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(snprintf)(char*, size_t, const char*, ...);
+                                                      ^~~~~~
+c:\mingw\include\stdio.h:349:55: error: unknown type name 'size_t'
+ extern int __mingw_stdio_redirect__(vsnprintf)(char*, size_t, const char*, __VALIST);
+                                                       ^~~~~~
+c:\mingw\include\stdio.h:490:57: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _snprintf (char *, size_t, const char *, ...);
+                                                         ^~~~~~
+c:\mingw\include\stdio.h:491:58: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int _vsnprintf (char *, size_t, const char *, __VALIST);
+                                                          ^~~~~~
+c:\mingw\include\stdio.h:502:23: error: unknown type name 'size_t'
+ int snprintf (char *, size_t, const char *, ...);
+                       ^~~~~~
+c:\mingw\include\stdio.h:505:24: error: unknown type name 'size_t'
+ int vsnprintf (char *, size_t, const char *, __VALIST);
+                        ^~~~~~
+c:\mingw\include\stdio.h:647:33: error: unknown type name 'size_t'
+ getdelim (char ** __restrict__, size_t * __restrict__, int, FILE * __restrict__);
+                                 ^~~~~~
+c:\mingw\include\stdio.h:650:32: error: unknown type name 'size_t'
+ getline (char ** __restrict__, size_t * __restrict__, FILE * __restrict__);
+                                ^~~~~~
+c:\mingw\include\stdio.h:734:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:734:56: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                        ^~~~~~
+c:\mingw\include\stdio.h:734:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:735:34: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                  ^~~~~~
+c:\mingw\include\stdio.h:735:63: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                               ^~~~~~
+c:\mingw\include\stdio.h:735:71: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                                       ^~~~~~
+c:\mingw\include\stdio.h:962:64: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                                ^~~~~~
+c:\mingw\include\stdio.h:964:65: error: unknown type name 'size_t'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    _vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                                 ^~~~~~
+c:\mingw\include\stdio.h:1006:52: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int snwprintf (wchar_t *, size_t, const wchar_t *, ...);
+                                                    ^~~~~~
+c:\mingw\include\stdio.h:1007:53: error: unknown type name 'size_t'
+ __cdecl __MINGW_NOTHROW  int vsnwprintf (wchar_t *, size_t, const wchar_t *, __VALIST);
+                                                     ^~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c: In function 'is_triangle':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:42:49: error: expected ')' before ';' token
+      d3 = sqrt(pow(x3 - x2, 2) + pow(y3 - y2, 2);
+                                                 ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:53:1: error: expected ';' before '}' token
+ }
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:75:12: error: expected ';' before numeric constant
+     result 0;
+            ^
+Compilation finished at 11/5/2023, 8:54:52 PM

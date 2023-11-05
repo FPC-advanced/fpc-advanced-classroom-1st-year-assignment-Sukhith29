@@ -28,7 +28,7 @@ void input(float *x1, float *y1, float *x2, float *y2)
 {
     printf("enter the points to be measured:");
     scanf("%f %f",x1,y1);
-    printf("enter the 2 points");
+    printf("enter the 2 points:");
     scanf("%f %f",x2,y2);
 
 }
