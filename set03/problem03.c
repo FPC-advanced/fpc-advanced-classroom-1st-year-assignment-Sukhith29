@@ -14,8 +14,8 @@ void output(int n, int result);
 
 ***Output***
 ```
-3 is a prime number*/
-```
+3 is a prime number
+```*/
 
 #include <stdio.h>
 
@@ -27,7 +27,7 @@ int input_number()
     return n;
 }
 
-int is_prime(int n);
+int is_prime(int n)
 {
     int a[n];
     for (int i=0;i<n;i++)

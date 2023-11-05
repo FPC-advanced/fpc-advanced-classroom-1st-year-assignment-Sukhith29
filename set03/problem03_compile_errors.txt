@@ -18,3 +18,10 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  {
  ^
 Compilation finished at 11/5/2023, 9:12:56 PM
+Compilation started at 11/5/2023, 9:14:08 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c: In function 'input_number':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:26:17: error: 'x' undeclared (first use in this function)
+     scanf("%d",&x);
+                 ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:26:17: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/5/2023, 9:14:08 PM
