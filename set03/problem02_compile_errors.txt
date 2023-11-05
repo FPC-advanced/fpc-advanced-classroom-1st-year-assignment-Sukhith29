@@ -142,3 +142,10 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      result 0;
             ^
 Compilation finished at 11/5/2023, 8:55:29 PM
+Compilation started at 11/5/2023, 8:57:35 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c: In function 'is_triangle':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:44:27: error: 'd' undeclared (first use in this function)
+      if(d1+d2>d3 && d2+d3>d && d1+d3>d2)
+                           ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:44:27: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/5/2023, 8:57:35 PM
