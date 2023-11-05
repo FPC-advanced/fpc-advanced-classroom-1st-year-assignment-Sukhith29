@@ -1,0 +1,20 @@
+Compilation started at 11/5/2023, 9:12:56 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:18:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:18:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:18:3: error: stray '`' in program
+ ```
+   ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c: In function 'input_number':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:26:17: error: 'x' undeclared (first use in this function)
+     scanf("%d",&x);
+                 ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:26:17: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c: At top level:
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem03.c:31:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+Compilation finished at 11/5/2023, 9:12:56 PM
