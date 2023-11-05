@@ -149,3 +149,5 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
                            ^
 c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set03\problem02.c:44:27: note: each undeclared identifier is reported only once for each function it appears in
 Compilation finished at 11/5/2023, 8:57:35 PM
+Compilation started at 11/5/2023, 8:58:26 PM
+Compilation finished at 11/5/2023, 8:58:26 PM
