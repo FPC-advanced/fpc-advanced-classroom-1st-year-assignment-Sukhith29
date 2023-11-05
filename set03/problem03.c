@@ -23,7 +23,7 @@ int input_number()
 {
     int n;
     printf("enter the number to be checked :");
-    scanf("%d",&x);
+    scanf("%d",&n);
     return n;
 }
 
