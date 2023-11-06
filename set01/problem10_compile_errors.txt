@@ -80,3 +80,5 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void check(char string1[100],char string2[100],char *out[100])
       ^~~~~
 Compilation finished at 11/6/2023, 9:17:46 AM
+Compilation started at 11/6/2023, 9:18:11 AM
+Compilation finished at 11/6/2023, 9:18:11 AM
