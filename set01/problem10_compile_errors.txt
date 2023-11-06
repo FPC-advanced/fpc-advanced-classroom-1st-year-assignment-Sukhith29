@@ -24,3 +24,31 @@ c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:12:6: note: expected 'char **' but argument is of type 'char (*)[100]'
  void check(char string1[100],char string2[100],char *out[100])
       ^~~~~
+Compilation started at 11/6/2023, 9:10:01 AM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c: In function 'check':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:18:13: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+        *out =&string1;
+             ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:21:14: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         *out =&string2;
+              ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:32:23: warning: passing argument 1 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_two_strings(&string1,&string2);
+                       ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:6:7: note: expected 'char **' but argument is of type 'char (*)[100]'
+ void  input_two_strings(char *string1[100],char *string2[100]){
+       ^~~~~~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:32:32: warning: passing argument 2 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_two_strings(&string1,&string2);
+                                ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:6:7: note: expected 'char **' but argument is of type 'char (*)[100]'
+ void  input_two_strings(char *string1[100],char *string2[100]){
+       ^~~~~~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:33:27: warning: passing argument 3 of 'check' from incompatible pointer type [-Wincompatible-pointer-types]
+     check(string1,string2,&out);
+                           ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set01\problem10.c:12:6: note: expected 'char **' but argument is of type 'char (*)[100]'
+ void check(char string1[100],char string2[100],char *out[100])
+      ^~~~~
+Compilation finished at 11/6/2023, 9:10:02 AM
