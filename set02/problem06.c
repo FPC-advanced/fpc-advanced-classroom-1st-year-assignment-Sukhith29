@@ -60,32 +60,43 @@ int main(){
 	
 
 
-#include<stdio.h>
-void inputs(char *a){
-    printf("enter a word");
-    scanf("%s",a);
-}
-void reverse(char *a,char *b)
-{
-  
-    int i,j = 0,n;
-    for(i=0;a[i]!='\0';i++);n =i;
-  for (i=n-1;a[i+1]!=a[0];i--)
-  {
-   *(b+j) = *(a+i);  j++;
-  }
-  *(b+j) = '\0';
- }
-void out(char *a){
-    printf("%s",a);
-}
-int main()
-{
-    char str[100],str1[100];
-    inputs(str);
-    reverse(str,str1);out(str1);
+#include <stdio.h>
+
+void input_string(char *a);
+void str_reverse(char *str,char *str_rev);
+void output(char *a,char *reverse_a);
+
+int main() {
+    char z[50];
+    char y[50];
+    input_string(z);
+    str_reverse(z, y);
+    output(z, y);
     return 0;
 }
+void input_string(char *a) {
+    printf("Enter a string: ");
+    gets(a);  
+}
+void str_reverse(char *str, char *str_rev) {
+    int length = 0;
+    while (str[length] != '\0') {
+        length++;
+    }
+    
+    for (int i = 0; i < length; i++) {
+        str_rev[i] = str[length - 1 - i];
+    }
+    str_rev[length] = '\0';  
+}
+void output(char *a, char *reverse_a) {
+    printf(" The original string you entered: %s\n", a);
+    printf(" The string when reversed : %s\n", reverse_a);
+}
+
+
+
+
 
 
 
