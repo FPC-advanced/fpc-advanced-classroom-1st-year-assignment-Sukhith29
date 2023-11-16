@@ -26,32 +26,43 @@ fibo(5) = 5
 int input()
 {
     int n;
-    printf("enter the length for the series:");
-    scanf("%d",&n);
+    do
+    {
+        printf("Enter a non-negative number for the series: ");
+        scanf("%d", &n);
+
+        if (n < 0)
+        {
+            printf("Please enter a non-negative number.\n");
+        }
+
+    } while (n < 0);
+
     return n;
 }
 
 int find_fibo(int n)
 {
-  int t1 =0 ,t =1,f = 0,i;
-for(i=0;f!=n;i++)
-  {
-  f= t1+t;
-  t1 = t;t =f;
-  }
-return (i+1);
+    int t1 = 0, t = 1, f = 0, i;
+    for (i = 0; f != n; i++)
+    {
+        f = t1 + t;
+        t1 = t;
+        t = f;
+    }
+    return (i + 1);
 }
 
 void output(int n, int fibo)
 {
-    printf("%d is the %dth term",n,fibo);
+    printf("%d is the %dth term in the Fibonacci series.\n", n, fibo);
 }
 
 int main()
 {
-    int n,f;
-     n = input();
-     f = find_fibo(n);
-    output(n,f);
+    int n, f;
+    n = input();
+    f = find_fibo(n);
+    output(n, f);
     return 0;
 }
