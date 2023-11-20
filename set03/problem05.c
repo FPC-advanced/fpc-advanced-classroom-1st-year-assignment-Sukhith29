@@ -19,20 +19,51 @@ void output(int n, int a[n]);
 ```
 
 #include <stdio.h>
-int input_array_size()
-{
-    int n ;
-    printf("enter the size of the array :");
-    scanf("%d",&n);
+
+// Function to take input for the array size
+int input_array_size() {
+    int n;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
     return n;
 }
 
-void init_array(int n, int a[n])
-{
-    int i;
-    for(i=0;i<=n;i++)
-    {
-        printf("enter the element of the array :");
-        scanf("")
+// Function to initialize the array
+void init_array(int n, int a[n]) {
+    for (int i = 2; i <= n; i++) {
+        a[i] = 1; // Assuming all numbers are prime initially
     }
+}
+
+// Function to implement the Sieve of Eratosthenes
+void eratosthenes_sieve(int n, int a[n]) {
+    for (int i = 2; i * i <= n; i++) {
+        if (a[i] == 1) {
+            for (int j = i * i; j <= n; j += i) {
+                a[j] = 0; // Mark multiples of prime 'i' as not prime
+            }
+        }
+    }
+}
+
+// Function to output the prime numbers
+void output(int n, int a[n]) {
+    printf("Prime numbers between 2 and %d are: ", n);
+    for (int i = 2; i <= n; i++) {
+        if (a[i] == 1) {
+            printf("%d, ", i);
+        }
+    }
+    printf("\n");
+}
+
+int main() {
+    int n = input_array_size();
+    int a[n];
+
+    init_array(n, a);
+    eratosthenes_sieve(n, a);
+    output(n, a);
+
+    return 0;
 }
