@@ -1,4 +1,4 @@
-6. Write a program to find the index of a substring of a string
+/*6. Write a program to find the index of a substring of a string
 
 ***Function Declarations***
 ```c
@@ -16,7 +16,7 @@ world
 ***Output***
 ```
 The index of 'world' in 'helloworldhello' is 5
-```
+```*/
 
 #include <stdio.h>
 #include <string.h>

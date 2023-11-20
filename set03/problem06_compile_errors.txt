@@ -1126,3 +1126,5 @@ c:\mingw\include\string.h:227:42: error: unknown type name 'size_t'
  __CRT_ALIAS int strerror_s (char *__buf, size_t __len, int __err)
                                           ^~~~~~
 Compilation finished at 11/20/2023, 9:43:50 AM
+Compilation started at 11/20/2023, 9:44:35 AM
+Compilation finished at 11/20/2023, 9:44:35 AM
