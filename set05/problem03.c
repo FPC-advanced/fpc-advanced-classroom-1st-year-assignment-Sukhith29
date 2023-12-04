@@ -50,12 +50,10 @@ Camel input() {
     return c;
 }
 
-// Function to find the weight (pass by value)
 float find_weight(Camel c) {
     return PI * pow(c.radius, 3) * sqrt(c.height * c.length);
 }
 
-// Function to find the weight (passing address variable)
 void find_weight(Camel *c) {
     c->weight = PI * pow(c->radius, 3) * sqrt(c->height * c->length);
 }
@@ -68,16 +66,12 @@ void output(Camel c) {
 int main() {
     Camel myCamel;
 
-    // Input
     myCamel = input();
 
-    // Calculate weight (pass by value)
     float weight1 = find_weight(myCamel);
 
-    // Calculate weight (passing address variable)
     find_weight(&myCamel);
 
-    // Output
     output(myCamel);
 
     return 0;

@@ -45,13 +45,10 @@ void output(float radius, float height, float length, float weight) {
 int main() {
     float radius, height, length, weight;
 
-    // Input
     input_camel_details(&radius, &height, &length);
 
-    // Calculate weight
     weight = find_weight(radius, height, length);
 
-    // Output
     output(radius, height, length, weight);
 
     return 0;
