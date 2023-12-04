@@ -1,4 +1,4 @@
-8. Write a program to find the permeter of a polygon
+/*8. Write a program to find the permeter of a polygon
 
 ***Function Declarations***
 ```c
@@ -38,39 +38,41 @@ Enter the coordinates of point 4 (x,y):
 ***Output***
 ```
 The perimeter of the polynomial is 4.000000
-```
+```*/
 
 
 #include <stdio.h>
 #include <math.h>
 
-typedef struct point {
+typedef struct point 
+{
     float x, y;
-} Point;
+}   Point;
 
-typedef struct polygon {
+typedef struct polygon 
+{
     int sides;
     Point p[100];
     float perimeter;
-} Polygon;
+} 
+Polygon;
 
-// Function to input the number of sides
-int input_n() {
+int input_n() 
+{
     int sides;
     printf("Enter the number of sides of the polygon: ");
     scanf("%d", &sides);
     return sides;
 }
 
-// Function to input a point
-Point input_point(char *prompt_msg) {
+Point input_point(char *prompt_msg) 
+{
     Point p;
     printf("%s", prompt_msg);
     scanf("%f %f", &p.x, &p.y);
     return p;
 }
 
-// Function to input a polygon
 int input_polygon(Polygon *poly) {
     poly->sides = input_n();
     printf("Enter the coordinates of the polygon vertices:\n");
@@ -83,14 +85,13 @@ int input_polygon(Polygon *poly) {
     return poly->sides;
 }
 
-// Function to calculate the distance between two points
 float find_distance(Point a, Point b) {
     float dx = b.x - a.x;
     float dy = b.y - a.y;
     return sqrt(dx * dx + dy * dy);
 }
 
-// Function to calculate the perimeter of the polygon
+
 void find_perimeter(Polygon *poly) {
     poly->perimeter = 0.0;
 
@@ -100,7 +101,6 @@ void find_perimeter(Polygon *poly) {
     }
 }
 
-// Function to output the result
 void output(Polygon poly) {
     printf("The perimeter of the polygon is %.6f\n", poly.perimeter);
 }

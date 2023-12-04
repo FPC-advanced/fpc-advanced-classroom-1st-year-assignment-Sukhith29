@@ -1,4 +1,4 @@
-5. Write a program to find all the prime numbers between 2 to n Eratosthenes Sieve method.
+/*5. Write a program to find all the prime numbers between 2 to n Eratosthenes Sieve method.
 
 ***Function Declarations***
 ```c
@@ -15,7 +15,7 @@ void output(int n, int a[n]);
 
 ***Output***
 ```
-2, 3, 7, 11, 13, 19, 23, 29, 31
+2, 3, 7, 11, 13, 19, 23, 29, 31*/
 ```
 
 #include <stdio.h>
@@ -28,25 +28,22 @@ int input_array_size() {
     return n;
 }
 
-// Function to initialize the array
 void init_array(int n, int a[n]) {
     for (int i = 2; i <= n; i++) {
-        a[i] = 1; // Assuming all numbers are prime initially
+        a[i] = 1; 
     }
 }
 
-// Function to implement the Sieve of Eratosthenes
 void eratosthenes_sieve(int n, int a[n]) {
     for (int i = 2; i * i <= n; i++) {
         if (a[i] == 1) {
             for (int j = i * i; j <= n; j += i) {
-                a[j] = 0; // Mark multiples of prime 'i' as not prime
+                a[j] = 0;
             }
         }
     }
 }
 
-// Function to output the prime numbers
 void output(int n, int a[n]) {
     printf("Prime numbers between 2 and %d are: ", n);
     for (int i = 2; i <= n; i++) {
