@@ -34,10 +34,10 @@ void input_camel_details(float *radius, float *height, float *length) {
 }
 
 int find_mood(float radius, float height, float length) {
-    if (radius < height && radius < length) return 0; // Sick
-    if (height < length && height < radius) return 1; // Happy
-    if (length < height && length < radius) return 2; // Tense
-    return -1; // Unknown mood
+    if (radius < height && radius < length) return 0;
+    if (height < length && height < radius) return 1; 
+    if (length < height && length < radius) return 2; 
+    return -1; 
 }
 
 void output(int mood) {
@@ -48,10 +48,8 @@ void output(int mood) {
 int main() {
     float radius, height, length;
 
-    // Input
     input_camel_details(&radius, &height, &length);
 
-    // Determine mood and output
     output(find_mood(radius, height, length));
 
     return 0;
