@@ -36,7 +36,7 @@ float borga_X(int x) {
     while (term > 0.000001) {
         result += term / factorial;
         term = term * x;
-        factorial *= (factorial + 1) * (factorial + 2); // Update factorial for the next term
+        factorial *= (factorial + 1) * (factorial + 2); 
     }
 
     return result;

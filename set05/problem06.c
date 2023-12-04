@@ -49,7 +49,7 @@ float odd_average(int n, int a[n]) {
     }
 
     if (count == 0) {
-        return 0.0; // Avoid division by zero
+        return 0.0; 
     }
 
     return (float)sum / count;
@@ -63,13 +63,10 @@ int main() {
     int n = input_n();
     int array[n];
 
-    // Input
     input(n, array);
 
-    // Calculate average of odd elements
     float average = odd_average(n, array);
 
-    // Output
     output(average);
 
     return 0;
