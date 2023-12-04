@@ -1,0 +1,45 @@
+Compilation started at 12/4/2023, 10:16:26 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:53:7: note: previous definition of 'find_weight' was here
+ float find_weight(Camel c) {
+       ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:71:33: error: incompatible type for argument 1 of 'find_weight'
+     float weight1 = find_weight(myCamel);
+                                 ^~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: note: expected 'Camel * {aka struct camel *}' but argument is of type 'Camel {aka struct camel}'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+Compilation finished at 12/4/2023, 10:16:26 PM
+Compilation started at 12/4/2023, 10:17:33 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:53:7: note: previous definition of 'find_weight' was here
+ float find_weight(Camel c) {
+       ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:71:33: error: incompatible type for argument 1 of 'find_weight'
+     float weight1 = find_weight(myCamel);
+                                 ^~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: note: expected 'Camel * {aka struct camel *}' but argument is of type 'Camel {aka struct camel}'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+Compilation finished at 12/4/2023, 10:17:33 PM
+Compilation started at 12/4/2023, 10:18:39 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:53:7: note: previous definition of 'find_weight' was here
+ float find_weight(Camel c) {
+       ^~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:71:33: error: incompatible type for argument 1 of 'find_weight'
+     float weight1 = find_weight(myCamel);
+                                 ^~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem03.c:57:6: note: expected 'Camel * {aka struct camel *}' but argument is of type 'Camel {aka struct camel}'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+Compilation finished at 12/4/2023, 10:18:39 PM

@@ -1,0 +1,32 @@
+Compilation started at 12/4/2023, 10:51:32 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:3: error: stray '`' in program
+ ```
+   ^
+Compilation finished at 12/4/2023, 10:51:32 PM
+Compilation started at 12/4/2023, 10:52:15 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:1: error: stray '`' in program
+ ```
+ ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:2: error: stray '`' in program
+ ```
+  ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.c:20:3: error: stray '`' in program
+ ```
+   ^
+Compilation finished at 12/4/2023, 10:52:16 PM
+Compilation started at 12/4/2023, 10:52:39 PM
+Compilation finished at 12/4/2023, 10:52:39 PM
+Compilation started at 12/4/2023, 10:53:03 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 10:53:03 PM
+Compilation started at 12/4/2023, 10:53:27 PM
+Compilation finished at 12/4/2023, 10:53:28 PM
+Compilation started at 12/4/2023, 10:54:40 PM
+Compilation finished at 12/4/2023, 10:54:40 PM

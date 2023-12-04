@@ -15,10 +15,10 @@ void output(int x, float result);
 
 ***Output***
 ```
-borga(5) = 2.699337*/
+borga(5) = 2.699337
 
 ```
-
+*/
 #include <stdio.h>
 
 int input() {
@@ -31,12 +31,12 @@ int input() {
 float borga_X(int x) {
     float result = 1.0;
     float term = x;
-    int factorial = 3;
+    int factorial = 1;  // Initialize factorial to 1
 
-    while (term > 0.000001) {
+    for (int i = 1; term > 0.000001; ++i) {
         result += term / factorial;
-        term = term * x;
-        factorial *= (factorial + 1) * (factorial + 2); 
+        term *= x;  // Incrementing the power of x by 1
+        factorial *= (2 * i) * (2 * i + 1);  // Update factorial correctly
     }
 
     return result;
