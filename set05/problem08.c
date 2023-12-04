@@ -102,16 +102,14 @@ int main() {
     Camel camels[n];
     float truck_weight;
 
-    // Input
+    
     input(n, camels, &truck_weight);
 
-    // Calculate camel weights
+    
     find_camel_weight(n, camels);
 
-    // Calculate total weight
     float total_weight = compute_total_weight(n, camels, truck_weight);
 
-    // Output
     output(total_weight);
 
     return 0;

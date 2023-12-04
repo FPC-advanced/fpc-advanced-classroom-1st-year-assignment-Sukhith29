@@ -62,13 +62,10 @@ void output(int res) {
 int main() {
     char name[50];
 
-    // Input
     input(name);
 
-    // Check if the name is nice
     int result = has_nice_name(name);
 
-    // Output
     output(result);
 
     return 0;
