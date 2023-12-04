@@ -67,14 +67,11 @@ void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum) {
 int main() {
     Fraction fraction1, fraction2, sum;
 
-    // Input
     fraction1 = input_fraction();
     fraction2 = input_fraction();
 
-    // Add fractions
     sum = add_fractions(fraction1, fraction2);
 
-    // Output
     output(fraction1, fraction2, sum);
 
     return 0;
