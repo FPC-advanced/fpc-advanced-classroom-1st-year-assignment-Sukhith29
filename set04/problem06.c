@@ -24,7 +24,7 @@ The number of words in "hello world hello" is 3
 
 void input_string(char *a) {
     printf("Enter a string: ");
-    fgets(a, 100, stdin); // Using fgets to read the entire line, including spaces
+    fgets(a, 100, stdin); 
 }
 
 int count_words(char *string) {
