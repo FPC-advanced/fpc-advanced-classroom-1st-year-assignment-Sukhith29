@@ -45,14 +45,11 @@ Fraction findSmallestFraction(Fraction fractions[3]) {
 int main() {
     Fraction fractions[3];
 
-    // Input
     printf("Enter three fractions (numerator denominator for each): \n");
     for (int i = 0; i < 3; ++i) {
         scanf("%d %d", &fractions[i].num, &fractions[i].den);
     }
 
-    // Find the smallest fraction
     Fraction smallest = findSmallestFraction(fractions);
 
-    // Output
     printf("The smallest of %d/%d, %d/%d, and %d/%d

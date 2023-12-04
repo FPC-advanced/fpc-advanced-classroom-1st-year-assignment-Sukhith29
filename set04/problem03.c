@@ -46,13 +46,10 @@ void output(int n, int r, int result) {
 int main() {
     int n, r;
 
-    // Input
     input_n_and_r(&n, &r);
 
-    // Calculate nCr
     int result = nCr(n, r);
 
-    // Output
     output(n, r, result);
 
     return 0;
