@@ -1,0 +1,52 @@
+Compilation started at 12/4/2023, 9:58:43 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c: In function 'add':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:35:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_num=(num1+num2);
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:36:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_den=(den1+den2);
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c: At top level:
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:12: error: 'num1' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+            ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:18: error: 'den1' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                  ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:24: error: 'num2' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                        ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:30: error: 'den2' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                              ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:35: error: expected ']' before ';' token
+     input(&num1,&den1,&num2,&den2);
+                                   ^
+Compilation finished at 12/4/2023, 9:58:43 PM
+Compilation started at 12/4/2023, 10:00:11 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c: In function 'add':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:35:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_num=(num1+num2);
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:36:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_den=(den1+den2);
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c: At top level:
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:12: error: 'num1' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+            ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:18: error: 'den1' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                  ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:24: error: 'num2' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                        ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:30: error: 'den2' undeclared here (not in a function)
+     input(&num1,&den1,&num2,&den2);
+                              ^~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem01.c:47:35: error: expected ']' before ';' token
+     input(&num1,&den1,&num2,&den2);
+                                   ^
+Compilation finished at 12/4/2023, 10:00:12 PM
+Compilation started at 12/4/2023, 10:01:16 PM
+Compilation finished at 12/4/2023, 10:01:17 PM

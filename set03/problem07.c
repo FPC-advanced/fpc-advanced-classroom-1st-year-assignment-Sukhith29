@@ -1,4 +1,4 @@
-7. Write a program to find the length of a line
+/*7. Write a program to find the length of a line
 
 ***Function Declarations***
 ```c
@@ -29,7 +29,7 @@ The distance between the points (1.000000,1.000000) and (2.000000,2.000000) is 1
 ```
 
 ---
-
+*/
 #include <stdio.h>
 #include <math.h>
 

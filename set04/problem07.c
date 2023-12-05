@@ -60,7 +60,7 @@ Fraction add_fractions(Fraction f1, Fraction f2) {
     return sum;
 }
 
-void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum) {
+void output(Fraction f1, Fraction f2, Fraction sum) {
     printf("%d/%d + %d/%d = %d/%d\n", f1.num, f1.den, f2.num, f2.den, sum.num, sum.den);
 }
 
@@ -76,3 +76,4 @@ int main() {
 
     return 0;
 }
+

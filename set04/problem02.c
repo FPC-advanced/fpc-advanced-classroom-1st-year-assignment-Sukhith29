@@ -52,4 +52,11 @@ int main() {
 
     Fraction smallest = findSmallestFraction(fractions);
 
-    printf("The smallest of %d/%d, %d/%d, and %d/%d
+    printf("The smallest of %d/%d, %d/%d, and %d/%d is %d/%d\n",
+           fractions[0].num, fractions[0].den,
+           fractions[1].num, fractions[1].den,
+           fractions[2].num, fractions[2].den,
+           smallest.num, smallest.den);
+
+    return 0;
+}

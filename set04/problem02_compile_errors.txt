@@ -1,0 +1,28 @@
+Compilation started at 12/4/2023, 10:02:00 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:12: warning: missing terminating " character
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:12: error: missing terminating " character
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:5: error: expected expression at end of input
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+     ^~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:5: error: expected declaration or statement at end of input
+Compilation finished at 12/4/2023, 10:02:00 PM
+Compilation started at 12/4/2023, 10:02:26 PM
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c: In function 'main':
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:12: warning: missing terminating " character
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+            ^
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:12: error: missing terminating " character
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:5: error: expected expression at end of input
+     printf("The smallest of %d/%d, %d/%d, and %d/%d
+     ^~~~~~
+c:\Users\sukhi\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Sukhith29\set04\problem02.c:55:5: error: expected declaration or statement at end of input
+Compilation finished at 12/4/2023, 10:02:26 PM
+Compilation started at 12/4/2023, 10:03:57 PM
+Compilation finished at 12/4/2023, 10:03:58 PM

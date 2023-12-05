@@ -27,20 +27,24 @@ void input_n_and_r(int *n, int *r) {
     scanf("%d %d", n, r);
 }
 
-int factorial(int num) {
+unsigned long long factorial(int num) {
     if (num == 0 || num == 1) {
         return 1;
     } else {
-        return num * factorial(num - 1);
+        unsigned long long result = 1;
+        for (int i = 2; i <= num; ++i) {
+            result *= i;
+        }
+        return result;
     }
 }
 
-int nCr(int n, int r) {
+unsigned long long nCr(int n, int r) {
     return factorial(n) / (factorial(r) * factorial(n - r));
 }
 
-void output(int n, int r, int result) {
-    printf("For n = %d and r = %d, nCr = %d\n", n, r, result);
+void output(int n, int r, unsigned long long result) {
+    printf("For n = %d and r = %d, nCr = %llu\n", n, r, result);
 }
 
 int main() {
@@ -48,7 +52,7 @@ int main() {
 
     input_n_and_r(&n, &r);
 
-    int result = nCr(n, r);
+    unsigned long long result = nCr(n, r);
 
     output(n, r, result);
 

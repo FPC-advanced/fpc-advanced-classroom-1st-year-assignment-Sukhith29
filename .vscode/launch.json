@@ -21,8 +21,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sukhi/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Sukhith29/set04",
-      "program": "c:/Users/sukhi/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Sukhith29/set04/build/Debug/outDebug",
+      "cwd": "c:/Users/sukhi/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Sukhith29/set05",
+      "program": "c:/Users/sukhi/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Sukhith29/set05/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
