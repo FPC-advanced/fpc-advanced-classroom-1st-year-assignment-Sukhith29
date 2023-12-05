@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 float input();
 float square_root(float n);
 void output(float n, float sqrroot);
+
 int main()
 {
     float n,sqrroot;
@@ -12,23 +13,23 @@ int main()
 }
 float input()
 {
-    float x;
-    printf("enter the number");
-    scanf("%f",&x);
-    return x;
-
+    float n;
+    printf("Enter the value:\n");
+    scanf("%f",&n);
+    return n;
 }
-float square_root( float n)
+float square_root(float n)
 {
-    float x,small=0.00001;
-    x=n;
-    while((x*x-n)>small)
+    float x,epsilon;
+    x=n/2;
+    epsilon=0.000001;
+    while((x*x-n)>epsilon|| (n-x*x)>epsilon)
     {
         x=0.5*(x+n/x);
     }
     return x;
 }
-void output(float n,float sqrroot)
+void output(float n, float sqrroot)
 {
-    printf("the square root of %f is %f",n,sqrroot);
+    printf("The squareroot of %f is %f\n",n,sqrroot);
 }
