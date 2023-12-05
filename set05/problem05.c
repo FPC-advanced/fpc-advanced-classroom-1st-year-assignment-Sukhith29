@@ -31,12 +31,12 @@ int input() {
 float borga_X(int x) {
     float result = 1.0;
     float term = x;
-    int factorial = 1;  // Initialize factorial to 1
+    int factorial = 1;  
 
     for (int i = 1; term > 0.000001; ++i) {
         result += term / factorial;
-        term *= x;  // Incrementing the power of x by 1
-        factorial *= (2 * i) * (2 * i + 1);  // Update factorial correctly
+        term *= x;  /
+        factorial *= (2 * i) * (2 * i + 1);  
     }
 
     return result;
