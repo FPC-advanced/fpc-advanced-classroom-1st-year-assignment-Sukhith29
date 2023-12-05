@@ -21,7 +21,7 @@ fibo(5) = 5
 
 ---*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int input()
 {
@@ -65,8 +65,9 @@ int main()
     f = find_fibo(n);
     output(n, f);
     return 0;
-}
-/*#include <stdio.h>
+}*/
+
+#include <stdio.h>
 
 int input();
 int find_fibo(int n);
@@ -101,4 +102,4 @@ int find_fibo(int n)
 void output(int n, int fibo)
 {
     printf("The %d number in the Fibonacci sequence is %d\n",n,fibo);
-}*/
+}
