@@ -35,45 +35,40 @@ The weight of the camel with radius: 1.0, height: 1.0, length: 1.0 is 3.1415
 #include <stdio.h>
 #include <math.h>
 
-#define PI 3.1415
-
-struct camel {
+struct camel
+{
     float radius, height, length, weight;
 };
 
 typedef struct camel Camel;
 
-Camel input() {
-    Camel c;
-    printf("Enter the stomach radius, height, and length of the camel: ");
-    scanf("%f %f %f", &c.radius, &c.height, &c.length);
-    return c;
-}
-
-float find_weight(Camel c) {
-    return PI * pow(c.radius, 3) * sqrt(c.height * c.length);
-}
-
-void find_weight(Camel *c) {
-    c->weight = PI * pow(c->radius, 3) * sqrt(c->height * c->length);
-}
-
-void output(Camel c) {
-    printf("The weight of the camel with radius: %.1f, height: %.1f, length: %.1f is %.4f\n",
-           c.radius, c.height, c.length, c.weight);
-}
-
-int main() {
-    Camel myCamel;
-
-    myCamel = input();
-
-    float weight1 = find_weight(myCamel);
-
-    find_weight(&myCamel);
-
-    output(myCamel);
-
+Camel input();
+void find_weight(Camel *C);
+void output(Camel C);
+int main()
+{
+    Camel C;
+    float radius, height, length, weight;
+    C = input();
+    find_weight(&C);
+    output(C);
     return 0;
+}
+Camel input()
+{
+    Camel C;
+    printf("Enter the radius,height,length of the camel:\n");
+    scanf("%f %f %f", &C.radius, &C.height, &C.length);
+    return C;
+}
+void find_weight(Camel *C)
+{
+    float weight, pi;
+    pi = 3.142;
+    C->weight = pi * C->radius * C->radius * C->radius * sqrt(C->height * C->length);
+}
+void output(Camel C)
+{
+    printf("The weight of the camel with radius: %0.1f, height: %0.1f, length: %0.1f is %f", C.radius, C.height, C.length, C.weight);
 }
 
