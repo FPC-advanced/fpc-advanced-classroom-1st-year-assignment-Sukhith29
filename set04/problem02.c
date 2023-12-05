@@ -21,42 +21,37 @@ The smallest of 1/2, 1/3 and 1/4 is 1/4
 
 ---*/
 
-#include <stdio.h>
-
+#include<stdio.h>
 typedef struct {
     int num, den;
 } Fraction;
-
-Fraction findSmallestFraction(Fraction fractions[3]) {
-    Fraction smallest = fractions[0];
-
-    for (int i = 1; i < 3; ++i) {
-        int product1 = smallest.num * fractions[i].den;
-        int product2 = fractions[i].num * smallest.den;
-
-        if (product1 * fractions[i].den > product2 * smallest.den) {
-            smallest = fractions[i];
-        }
-    }
-
-    return smallest;
+Fraction input(){
+    Fraction n;
+    printf("input numerator");
+    scanf("%d",&n.num);
+    printf("input denominator");
+    scanf("%d",&n.den);
+    return n;
 }
-
-int main() {
-    Fraction fractions[3];
-
-    printf("Enter three fractions (numerator denominator for each): \n");
-    for (int i = 0; i < 3; ++i) {
-        scanf("%d %d", &fractions[i].num, &fractions[i].den);
-    }
-
-    Fraction smallest = findSmallestFraction(fractions);
-
-    printf("The smallest of %d/%d, %d/%d, and %d/%d is %d/%d\n",
-           fractions[0].num, fractions[0].den,
-           fractions[1].num, fractions[1].den,
-           fractions[2].num, fractions[2].den,
-           smallest.num, smallest.den);
-
-    return 0;
+float calc(Fraction no){
+    float frac = (float)no.num/no.den;
+    return frac;
+}
+int main(){
+Fraction a = input(),b=input(),c=input(),lg;
+float f1,f2,f3;
+f1 = calc(a);
+f2 = calc(b);
+f3 = calc(c);
+if(f1>f2&&f1>f3){
+lg =a;
+}
+if(f2>f1&&f2>f3){
+    lg =b;
+}
+if(f3>f1&&f3>f2){
+    lg = c;
+}
+printf("%d/%d",lg.num,lg.den);
+return 0;
 }
