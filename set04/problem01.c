@@ -22,9 +22,9 @@ void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
 #include<stdio.h>
 void input(int *num1, int *den1, int *num2, int *den2){
     printf("enter the first fraction");
-    scanf("%d%d",num1,den1);
+    scanf("%d %d",num1,den1);
       printf("enter the second fraction");
-    scanf("%d%d",num2,den2);
+    scanf("%d %d",num2,den2);
 }
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den){
     if(den1!=den2){

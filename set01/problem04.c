@@ -3,7 +3,7 @@
 void input(int *pa, int *pb)
 {
     printf("Enter two numbers\n");
-    scanf("%d%d",pa,pb); 		
+    scanf("%d %d",pa,pb); 		
 }
 
 void add(int a, int b, int *sum)

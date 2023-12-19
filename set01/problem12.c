@@ -55,7 +55,8 @@ void output(int n, Complex c[n], Complex result) {
     printf("= %.2f + %.2fi\n", result.real, result.imaginary);
 }
 
-int main() {
+int main() 
+{
     int n;
     n = get_n(); 
     

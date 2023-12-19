@@ -96,7 +96,7 @@ void find_perimeter(Polygon *poly) {
     poly->perimeter = 0.0;
 
     for (int i = 0; i < poly->sides; i++) {
-        int next = (i + 1) % poly->sides;  // Next vertex (loop back to the first vertex for the last one)
+        int next = (i + 1) % poly->sides;  
         poly->perimeter += find_distance(poly->p[i], poly->p[next]);
     }
 }

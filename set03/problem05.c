@@ -20,7 +20,6 @@ void output(int n, int a[n]);
 
 #include <stdio.h>
 
-// Function to take input for the array size
 int input_array_size() {
     int n;
     printf("Enter the value of n: ");

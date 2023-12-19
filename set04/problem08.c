@@ -49,8 +49,10 @@ Fraction input_fraction() {
     return f;
 }
 
-void input_n_fractions(int n, Fraction f[n]) {
-    for (int i = 0; i < n; ++i) {
+void input_n_fractions(int n, Fraction f[n]) 
+{
+    for (int i = 0; i < n; ++i) 
+    {
         f[i] = input_fraction();
     }
 }

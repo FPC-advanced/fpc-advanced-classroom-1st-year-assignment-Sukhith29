@@ -53,5 +53,5 @@ if(f3>f1&&f3>f2){
     lg = c;
 }
 printf("%d/%d",lg.num,lg.den);
-return 0;
+return 0;
 }
